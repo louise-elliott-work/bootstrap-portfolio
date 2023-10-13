@@ -18,12 +18,48 @@
     --brand-font-family: Tahoma, Verdana, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  padding: var(--padding-standard);
+  margin: var(--margin-standard);
+  font-family: var(--brand-font-family)
+}
+
+/* Header colours. */
+
+h1 {
+  color: var(--brand-color-1);
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--brand-color-5);
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+h3 {
+  color: var(--brand-color-3);
+  font-size: 1.5vw;
+}
+
+h4 {
+  color: var(--brand-color-4);
+  font-size: 1.2vw;
+}
+
+/* Header bar with name and role on the left and navigation menu on the right. */
+
 #header-bar {
     background-color: var(--brand-color-3-transparent);
     border-style: solid;
     border-width: var(--border-width-standard);
     border-color: var(--brand-color-3);
     border-radius: var(--border-radius-standard);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link {
@@ -38,59 +74,26 @@
     color: var(--brand-color-5);
 }
 
-  /* Pre-Bootstrap CSS from basic version shown below here */
+/* About me jumbotron section clearly defined with title, summary and photo occupying 25% and responding to viewport width. */
 
-  * {
-    box-sizing: border-box;
-    padding: var(--padding-standard);
-    margin: var(--margin-standard);
-    font-family: var(--brand-font-family)
-  }
+.jumbotron .container-fluid {
+  background-color: var(--brand-color-2-transparent);
+  border-style: solid;
+  border-width: var(--border-width-standard);
+  border-color: var(--brand-color-2);
+  border-radius: var(--border-radius-standard);
+  flex-wrap: nowrap;
+}
+
+  /* Pre-Bootstrap CSS from basic version shown below here */
   
-  /* Brand colors used for all font, boxes and borders. */
+
   /* Font sizes throughout set to respond to viewport width. */
   
   body {
     line-height: 1.5;
     display: flex;
     flex-direction: column;
-  }
-  
-  /* Header bar with name and role on the left and navigation menu on the right. */
-  
-  header {
-    background-color: var(--brand-color-3-transparent);
-    border-style: solid;
-    border-width: var(--border-width-standard);
-    border-color: var(--brand-color-3);
-    border-radius: var(--border-radius-standard);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* About me section clearly defined with title, summary and photo occupying 20% and responding to viewport width. */
-  
-  #about-me {
-    background-color: var(--brand-color-2-transparent);
-    border-style: solid;
-    border-width: var(--border-width-standard);
-    border-color: var(--brand-color-2);
-    border-radius: var(--border-radius-standard);
-    margin: var(--margin-standard);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  
-  #text {
-    border-style: none;
-    grid-column: 1 / 4;
-  }
-  
-  #profile-photo {
-    grid-column: 4 / 5;
-    display: flex;
-    justify-content: flex-end;
   }
   
   /* Portfolio section clearly defined with title and labelled apps below that can be clicked on to open in a new tab. */
@@ -185,26 +188,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  
-  h1 {
-    color: var(--brand-color-1);
-    font-size: 3vw;
-  }
-  
-  h2 {
-    color: var(--brand-color-5);
-    font-size: 2vw;
-  }
-  
-  h3 {
-    color: var(--brand-color-3);
-    font-size: 1.5vw;
-  }
-  
-  h4 {
-    color: var(--brand-color-4);
-    font-size: 1.2vw;
   }
   
   a {
