@@ -29,10 +29,10 @@
 
 <body>
 
-<!-- Header container with name, profile photo and navigation links that take the user to the relavant content further down the page. -->
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top" id="header-bar">
-        <h1 class="profile-title" href="#">Louise Elliott - Front End Web Developer</h1>
+<!-- Header bar with name, profile photo and navigation links that take the user to the relavant content further down the page. -->
+<nav class="navbar navbar-expand-lg py-0" id="header-bar">
+    <div class="container-fluid">
+        <h1 href="#">Louise Elliott - Web Developer</h1>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
             <a class="nav-link" href="#about-me">About me</a>
@@ -44,9 +44,30 @@
             <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
+    </div>
+</nav>
 
-    </nav>
-</header>
+
+
+<!-- Jumbotron section with a professional summary and a profile photo. -->
+<div class="jumbotron">
+    <div class="container-fluid">        
+        <div class="row">
+            <div class="col-sm">
+                <h2>About me!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <!-- This summary will be updated once more professional experience has been gained. -->
+                <p>I am currently doing the Front End Web Development bootcamp with EdX. My professional background is in the charity sector (conservation and health) in finance, admin and audit roles, and in the education sector, having worked as an English teacher abroad short-term and as a secondary school languages teacher in the UK for six years. I have a first class BSc (Hons) in International Management and Spanish and a PGCE in secondary modern foreign languages teaching. The next step is to apply my skills and expertise in a web development role and it is something about which I am very excited!</p>
+            </div>
+            <div class="col-3">
+                <img src="images/professional-profile-photo.jpeg" class="img-fluid" alt="The image shows a photo of Louise Elliott.">
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 
