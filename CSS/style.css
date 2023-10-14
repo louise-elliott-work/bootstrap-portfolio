@@ -95,8 +95,13 @@ p {
 /* Skills section outlining learning expectations from the bootcamp. */
   
 #skills {
-  background-color: var(--brand-color-5-transparent);
+  background-color: var(--brand-color-1-transparent);
   padding: var(--padding-standard);
+}
+
+li {
+  color: var(--brand-color-6);
+  font-size: 1vw;
 }
 
 ul {
@@ -109,11 +114,10 @@ ul {
 
 #portfolio {
   padding: var(--padding-standard);
-  background-color: var(--brand-color-3-transparent);
 }
 
 .app-title {
-  color: var(--brand-color-5);
+  color: var(--brand-color-1);
   font-size: 1.8vw;
   font-weight: bold;
 }
