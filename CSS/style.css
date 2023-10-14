@@ -11,6 +11,8 @@
     --brand-color-4-transparent: #00b1ba2a;
     --brand-color-5: #0065A2;
     --brand-color-5-transparent: #0064a228;
+    --brand-color-6: #031621c3;
+    --brand-color-6-transparent: #03162128;
     --brand-font-family: Tahoma, Verdana, sans-serif;
     --padding-standard: 25px 20px 20px 20px;
 }
@@ -50,9 +52,14 @@ p {
 }
 
 .btn {
-  background-color: var(--brand-color-6-transparent);
+  background-color: var(--brand-color-5-transparent);
   border: unset;
-  color: var(--brand-color-1);
+  color: var(--brand-color-5);
+}
+
+.btn:hover {
+  background-color: var(--brand-color-2-transparent);
+  color: var(--brand-color-6);
 }
 
 /* Header bar with name and role on the left and navigation menu on the right. */
@@ -94,7 +101,7 @@ p {
 
 ul {
   list-style-type: none;
-  color: var(--brand-color-1);
+  color: var(--brand-color-6);
   font-size: 1.4vw;
 }
 
