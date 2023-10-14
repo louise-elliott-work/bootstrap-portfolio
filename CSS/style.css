@@ -12,15 +12,7 @@
     --brand-color-5: #0065A2;
     --brand-color-5-transparent: #0064a228;
     --brand-font-family: Tahoma, Verdana, sans-serif;
-    --padding-standard: 2px;
-    --margin-standard: 2px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: var(--margin-standard);
-  padding: var(--padding-standard);
-  font-family: var(--brand-font-family);
+    --padding-standard: 25px 20px 20px 20px;
 }
 
 /* Header colours. */
@@ -54,24 +46,18 @@ a {
 
 p {
   color: var(--brand-color-5);
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 
 /* Header bar with name and role on the left and navigation menu on the right. */
 
 #header-bar {
     background-color: var(--brand-color-5-transparent);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav-link {
-    display: inline-block;
-    list-style-type: none;
     font-size: 1.5vw;
     color: var(--brand-color-1);
-    text-decoration: none;
 }
 
 .nav-link:hover {
@@ -84,23 +70,39 @@ p {
 
 /* About me jumbotron section clearly defined with title, summary and photo occupying 25% and responding to viewport width. */
 
-  .profile-photo {
-    border-style: solid;
-    border-width: var(--border-width-standard);
-    border-color: var(--brand-color-4);
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    padding: unset;
-  }
+
+#about-me {
+  padding: var(--padding-standard);
+}
+
+.profile-photo {
+  border-style: solid;
+  border-width: var(--border-width-standard);
+  border-color: var(--brand-color-4);
+  border-radius: 50%;
+  height: auto;
+  width: 100%;
+}
 
 /* Skills section outlining learning expectations from the bootcamp. */
   
 #skills {
   background-color: var(--brand-color-5-transparent);
+  padding: var(--padding-standard);
+}
+
+ul {
+  list-style-type: none;
+  color: var(--brand-color-1);
+  font-size: 1.4vw;
 }
 
 /* Portfolio section clearly defined with title and labelled apps below that can be clicked on to open in a new tab. */
+
+#portfolio {
+  padding: var(--padding-standard);
+  background-color: var(--brand-color-3-transparent);
+}
 
 .app-title {
   color: var(--brand-color-5);
