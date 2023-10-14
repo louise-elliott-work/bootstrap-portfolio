@@ -38,7 +38,10 @@
             <a class="nav-link" href="#about-me">About me</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#my-portfolio">My portfolio</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -47,27 +50,81 @@
     </div>
 </nav>
 
-
-
 <!-- Jumbotron section with a professional summary and a profile photo. -->
-<div class="jumbotron">
-    <div class="container-fluid">        
+        <section id="about-me">
+        <section class="jumbotron-fluid">
+            <div class="container-fluid">        
+                <div class="row">
+                    <h2>About me</h2>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                    <!-- This summary will be updated once more professional experience has been gained. -->
+                    <p>I am currently doing the Front End Web Development bootcamp with EdX. My professional background is in the charity sector (conservation and health) in finance, admin and audit roles, and in the education sector, having worked as an English teacher abroad short-term and as a secondary school languages teacher in the UK for six years. I have a first class BSc (Hons) in International Management and Spanish and a PGCE in secondary modern foreign languages teaching. The next step is to apply my skills and expertise in a web development role and it is something about which I am very excited!</p>
+                    </div>
+                    <div class="col-2">
+                    <img src="images/professional-profile-photo-resized.jpeg" class="profile-photo" alt="The image shows a photo of Louise Elliott.">
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+<!-- Portfolio container with images for, and links to, apps built and refactored so far. -->
+
+<section id="portfolio">
+    <div class="container-fluid">  
         <div class="row">
             <div class="col-sm">
-                <h2>About me!</h2>
+                <h2>Portfolio</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-8">
-                <!-- This summary will be updated once more professional experience has been gained. -->
-                <p>I am currently doing the Front End Web Development bootcamp with EdX. My professional background is in the charity sector (conservation and health) in finance, admin and audit roles, and in the education sector, having worked as an English teacher abroad short-term and as a secondary school languages teacher in the UK for six years. I have a first class BSc (Hons) in International Management and Spanish and a PGCE in secondary modern foreign languages teaching. The next step is to apply my skills and expertise in a web development role and it is something about which I am very excited!</p>
+        <div class="row card-deck">
+            <div class="col-sm-3 d-flex">
+                <div class="card">
+                    <img class="card-img-top" src="./Images/digital-marketing-meeting.jpg" alt="The image shows a photo of a marketing meeting taking place, with four team members around a table looking at information on paper and on a laptop.">
+                    <div class="card-body">
+                        <h5 class="app-title">Horiseon</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">HTML CSS</h6>
+                        <p class="card-text">Refactor of a website for a marketing agency</p>
+                        <a href="https://louise-elliott-work.github.io/website-refactor-Horiseon/" target="_blank" class="btn btn-primary">Deployed app</a>
+                        <a href="https://github.com/louise-elliott-work/website-refactor-Horiseon" target="_blank" class="btn btn-primary">GitHub repo</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <img src="images/professional-profile-photo.jpeg" class="img-fluid" alt="The image shows a photo of Louise Elliott.">
+            <div class="col-sm-3 d-flex">
+                <div class="card">
+                    <img class="card-img-top" src="./images/prework-study-guide-screenshot-resized.png" alt="The image shows a photo of a marketing meeting taking place, with four team members around a table looking at information on paper and on a laptop.">
+                    <div class="card-body">
+                        <h5 class="app-title">Study guide</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">HTML CSS</h6>
+                        <p class="card-text">Creation of a website for a prework study guide</p>
+                        <a href="https://louise-elliott-work.github.io/prework-study-guide/" target="_blank" class="btn btn-primary">Deployed app</a>
+                        <a href="https://github.com/louise-elliott-work/prework-study-guide" target="_blank" class="btn btn-primary">GitHub repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 d-flex">
+                <div class="card">
+                    <img class="card-img-top" src="./images/benjamin-elliott-SWQmJ7bO0OI-unsplash-resized.jpg" alt="The image shows a photo of a man swimming in a river with treelined and mossy banks either side."> <!-- Photo by Benjamin Elliott on Unsplash." -->
+                    <div class="card-body">
+                        <h5 class="app-title">Swim Wild app</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">HTML CSS JavaScript</h6>
+                        <p class="card-text">Coming soon - creation of a website about wild swimming</p>
+                        <a href="#" class="btn btn-primary">Deployed app</a>
+                        <a href="#" class="btn btn-primary">GitHub repo</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<!-- Skills section outlining learning expectations from the bootcamp. -->
+<section id="skills">
+    <p>HTML5, CSS3, JavaScript, JQuery, Bootstrap, ReactJS, ES6 and Node.js.</p>
+</section>
+
 
 </body>
 
