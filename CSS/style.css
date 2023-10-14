@@ -49,6 +49,12 @@ p {
   font-size: 1.3vw;
 }
 
+.btn {
+  background-color: var(--brand-color-6-transparent);
+  border: unset;
+  color: var(--brand-color-1);
+}
+
 /* Header bar with name and role on the left and navigation menu on the right. */
 
 #header-bar {
@@ -64,12 +70,7 @@ p {
     color: var(--brand-color-4);
 }
 
-.btn:hover {
-    background-color: var(--brand-color-4);
-}
-
 /* About me jumbotron section clearly defined with title, summary and photo occupying 25% and responding to viewport width. */
-
 
 #about-me {
   padding: var(--padding-standard);
@@ -115,6 +116,19 @@ ul {
   width: auto;
 }
 
+/* Footer bar with contact information, all clickable with hover and shaadow effect. */
+
+#contact {
+  padding: var(--padding-standard);
+  background-color: var(--brand-color-2-transparent);
+}
+
+#contact .btn:hover {
+  background-color: var(--brand-color-3-transparent);
+  color: var(--brand-color-4);
+  box-shadow: 5px 5px 20px 5px var(--brand-color-1);
+}
+
   /* Pre-Bootstrap CSS from basic version shown below here */
   
 
@@ -124,25 +138,4 @@ ul {
     line-height: 1.5;
     display: flex;
     flex-direction: column;
-  }
-  
-  /* Contact section clearly defined with 'Get in touch' instruction, email address, GitHub link and LinkedIn link, all clickable. */
-  
-  #contact {
-    background-color: var(--brand-color-5-transparent);
-    border-style: solid;
-    border-width: var(--border-width-standard);
-    border-color: var(--brand-color-5);
-    border-radius: var(--border-radius-standard);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Signature displayed bottom right. */
-  
-  footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
   }
