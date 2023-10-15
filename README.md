@@ -24,16 +24,23 @@ n/a
 The webpage has a header with a navigation menu of four items at the top, which link to the sections below when clicked. There is a clear section for each of the four items. First is the profile section with a summary and photo. Alongside it the skills section with a bullet point list and icons. Next is the portfolio section with clickable links for each of the apps developed so far, to both the deployed app and the GitHub repo. In the footer are contact details with links that can be clicked to open.
 
 Screenshots showing responsiveness at different px:
+
+xs-500px
 ![xs-500px](Images/Screenshot-xs-500px.jpg)
 
+sm-700px
 ![sm-700px](Images/Screenshot-sm-700px.jpg)
 
+md-900px
 ![md-900px](Images/Screenshot-md-900px.jpg)
 
+lg-1000px
 ![lg-1000px](Images/Screenshot-lg-1000px.jpg)
 
+xl-1200px
 ![xl-1200px](Images/Screenshot-xl-1200px.jpg)
 
+xxl-1400px
 ![xxl-1400px](Images/Screenshot-xxl-1400px.jpg)
 
 Website link: https://louise-elliott-work.github.io/website-build-bootstrap-portfolio
