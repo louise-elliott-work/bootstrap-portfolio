@@ -105,7 +105,9 @@ p {
 
 li {
   color: var(--brand-color-6);
-  font-size: 1vw;
+  font-size: 1.4vw;
+  list-style-type: none;
+  padding-left: 20px;
 }
 
 ul {
