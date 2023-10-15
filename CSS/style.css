@@ -15,61 +15,48 @@
     --brand-color-6-transparent: #03162128;
     --brand-font-family: Tahoma, Verdana, sans-serif;
     --padding-standard: 25px 20px 20px 20px;
+    --margin-standard: 3px;
 }
 
-/* Header colours. */
+/* Header colors */
 
 h1 {
   color: var(--brand-color-1);
-  font-size: 3vw;
-  font-weight: bold;
 }
 
 h2 {
   color: var(--brand-color-5);
-  font-size: 2vw;
-  font-weight: bold;
 }
 
 h3 {
   color: var(--brand-color-3);
-  font-size: 1.5vw;
 }
 
 h4 {
   color: var(--brand-color-4);
-  font-size: 1.2vw;
 }
+
+h5 {
+  color: var(--brand-color-1);
+}
+
+/* Text colors */
 
 a {
   color: var(--brand-color-1);
-  text-decoration: none;
 }
 
 p {
   color: var(--brand-color-5);
-  font-size: 1.3vw;
 }
 
-.btn {
-  background-color: var(--brand-color-5-transparent);
-  border: unset;
-  color: var(--brand-color-5);
-}
-
-.btn:hover {
-  background-color: var(--brand-color-2-transparent);
-  color: var(--brand-color-6);
-}
-
-/* Header bar with name and role on the left and navigation menu on the right. */
+/* Navigation bar */
 
 #header-bar {
     background-color: var(--brand-color-5-transparent);
 }
 
 .nav-link {
-    font-size: 1.5vw;
     color: var(--brand-color-1);
 }
 
@@ -77,10 +64,11 @@ p {
     color: var(--brand-color-4);
 }
 
-/* About me jumbotron section clearly defined with title, summary and photo occupying 25% and responding to viewport width. */
+/* Jumbotron section */
 
 #about-me {
   padding: var(--padding-standard);
+  margin: var(--margin-standard);
 }
 
 .profile-photo {
@@ -90,9 +78,10 @@ p {
   border-radius: 50%;
   height: auto;
   width: 100%;
+  margin: var(--margin-standard)
 }
 
-/* Skills section outlining learning expectations from the bootcamp. */
+/* Skills section (within jumbotron) */
   
 #skills {
   background-color: var(--brand-color-1-transparent);
@@ -104,40 +93,49 @@ p {
 }
 
 li {
-  color: var(--brand-color-6);
-  font-size: 1.4vw;
   list-style-type: none;
-  padding-left: 20px;
 }
 
-ul {
-  list-style-type: none;
-  color: var(--brand-color-6);
-  font-size: 1.4vw;
-}
-
-/* Portfolio section clearly defined with title and labelled apps below that can be clicked on to open in a new tab. */
+/* Portfolio section */
 
 #portfolio {
   padding: var(--padding-standard);
 }
 
-.app-title {
-  color: var(--brand-color-1);
-  font-size: 1.8vw;
-  font-weight: bold;
+.card {
+  border-color: var(--brand-color-6);
+  margin: var(--margin-standard);
 }
 
 .card-img-top {
-  height: 200px;
-  width: auto;
+  height: auto;
+  max-width: 500px;
 }
 
-/* Footer bar with contact information, all clickable with hover and shaadow effect. */
+#portfolio .btn {
+  background-color: var(--brand-color-5-transparent);
+  border-color: var(--brand-color-5);
+  color: var(--brand-color-5);
+  margin: var(--margin-standard);
+}
+
+#portfolio .btn:hover {
+  background-color: var(--brand-color-2-transparent);
+  color: var(--brand-color-6);
+}
+
+/* Footer bar with contact information */
 
 #contact {
-  padding: 20px 20px 20px 33px;
+  padding: var(--padding-standard);
   background-color: var(--brand-color-2-transparent);
+}
+
+#contact .btn {
+  background-color: var(--brand-color-5-transparent);
+  border-color: var(--brand-color-5);
+  color: var(--brand-color-1);
+  margin: 3px;
 }
 
 #contact .btn:hover {
@@ -145,14 +143,3 @@ ul {
   color: var(--brand-color-4);
   box-shadow: 5px 5px 20px 5px var(--brand-color-1);
 }
-
-  /* Pre-Bootstrap CSS from basic version shown below here */
-  
-
-  /* Font sizes throughout set to respond to viewport width. */
-  
-  body {
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-  }

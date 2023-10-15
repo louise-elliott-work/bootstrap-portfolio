@@ -1,38 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-<!-- Semantic elements and alternate text provided for images throughout to aid accessibility. -->
-
 <head>
-<!-- Key meta data for search engine optimisation. -->
+<!-- Meta data -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- CSS stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Font awesome kit code -->
     <script src="https://kit.fontawesome.com/6206014632.js" crossorigin="anonymous"></script>
 
-    <title>Louise Elliott // Profile // Web Developer</title>
+    <title>Louise Elliott // Profile // Front End Web Developer</title>
 </head>
 
 <body>
 
-<!-- Header bar with name, profile photo and navigation links that take the user to the relavant content further down the page. -->
-<nav class="navbar navbar-expand-lg" id="header-bar">
+<!-- Header bar with navigation links that take the user to the relavant content on the page. Buttons change colour upon hovering. -->
+<nav class="navbar navbar-expand-sm" id="header-bar">
     <div class="container-fluid">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -51,23 +40,23 @@
     </div>
 </nav>
 
-<!-- Jumbotron section with a professional summary and a profile photo. -->
+<!-- Jumbotron section with profile photo, professional summary and skills list. -->
         <section id="about-me">
         <section class="jumbotron-fluid">
             <div class="container-fluid"> 
                 <div class="row"> 
-                    <div class="col-2">
-                        <img src="images/professional-profile-photo-resized.jpeg" class="profile-photo" alt="The image shows a photo of Louise Elliott.">
+                    <div class="col-6 col-md-2">
+                        <img src="images/professional-profile-photo-resized.jpeg" class="profile-photo" alt="The circular image shows a photo of Louise Elliott.">
                     </div>
-                    <div class="col-8">
+                    <div class="col-12 col-md-7 col-lg-8">
                         <h1>Louise Elliott</h1>   
                         <h2>Front End Web Developer</h2>
                     <!-- This summary will be updated once more professional experience has been gained. -->
-                    <p>Currently undertaking a Front End Web Development bootcamp with edX. Professional background in the charity sector through finance, admin and audit roles, and in secondary school education as a French, Spanish, English and Literacy teacher. Qualified and approved level 2 foster carer. First class BSc (Hons) in International Management and Spanish. PGCE in secondary modern foreign languages teaching. Based in Wiltshire, UK. Seeking opportunities to apply my skills and expertise in a new role.</p>
+                    <p>Currently undertaking a Front End Web Development bootcamp with edX. Professional background in the charity sector through finance, admin and audit roles, and in secondary school education as a French, Spanish, English and Literacy teacher. Qualified and approved level 2 foster carer. First class BSc (Hons) in International Management and Spanish. PGCE in secondary modern foreign languages teaching. Based in Wiltshire, UK. Seeking opportunities to apply skills and expertise in a new role.</p>
                     </div>
-                    <div class="col-2"> 
+                    <div class="col-6 col-md-3 col-lg-2"> 
                         <section id="skills"><h2>Skills</h2>
-                        <!-- Skills section listing learning expectations from the bootcamp. -->
+                        <!-- Skills section listing learning expectations from the bootcamp, with icons. -->
                             <li class="list-groupitem"><i class="fa-brands fa-html5"></i> HTML</li>
                             <li class="list-groupitem"><i class="fa-brands fa-css3"></i> CSS</li>
                             <li class="list-groupitem"><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
@@ -81,8 +70,7 @@
         </section>
         </section>
 
-<!-- Portfolio container with images for, and links to, apps built and refactored so far. -->
-
+<!-- Portfolio section with images, titles, tools, a summary and links for apps. -->
 <section id="portfolio">
     <div class="container-fluid">  
         <div class="row">
@@ -105,7 +93,7 @@
             </div>
             <div class="col-sm-4 d-flex">
                 <div class="card">
-                    <img class="card-img-top" src="./images/prework-study-guide-screenshot-resized.png" alt="The image shows a photo of a marketing meeting taking place, with four team members around a table looking at information on paper and on a laptop.">
+                    <img class="card-img-top" src="./images/prework-study-guide-screenshot-resized.png" alt="The image shows a screenshot of a webpage entitled Prework Study Guide, with a logo and some notes underneath.">
                     <div class="card-body">
                         <h5 class="app-title">Study guide</h5>
                         <h6 class="card-subtitle mb-2 text-muted">HTML CSS</h6>
@@ -131,7 +119,7 @@
     </div>
 </section>
 
-<!-- <Contact container with email, GitHub and LinkedIn links. -->
+<!-- Contact section with email, GitHub and LinkedIn links. -->
 <section id="contact">
     <ul class="list-group list-group-horizontal-lg">
         <li class="list-groupitem flex-fill"><h2>Contact</h2></li>
@@ -140,7 +128,7 @@
             <!-- Link opens as new tab. -->
             <li class="list-groupitem flex-fill"><a class="btn btn-primary" href="https://github.com/louise-elliott-work?tab=repositories" target="_blank">GitHub: louise-elliott-work</a></li>
             <!-- LinkedIn profile to be added at a later date. -->
-            <li class="list-groupitem flex-fill"><a class="btn btn-primary">LinkedIn: coming soon</a></li>
+            <li class="list-groupitem flex-fill"><a class="btn btn-primary" href="#">LinkedIn: coming soon</a></li>
             </ul>
 </section>
 
