@@ -1,4 +1,4 @@
-# website-build-bootstrap-portfolio
+# bootstrap-portfolio
 
 ## Description
 
@@ -43,7 +43,7 @@ xl-1200px
 xxl-1400px
 ![xxl-1400px](Images/Screenshot-xxl-1400px.jpg)
 
-Website link: https://louise-elliott-work.github.io/website-build-bootstrap-portfolio
+Website link: https://louise-elliott-work.github.io/bootstrap-portfolio
 
 ## License
 
